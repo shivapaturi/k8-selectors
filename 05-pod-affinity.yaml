@@ -23,7 +23,8 @@ spec:
       requiredDuringSchedulingIgnoredDuringExecution:
       - labelSelector:
           matchExpressions:
-          - key: app-name
+          #- key: app-name
+          - key: app-nameee
             operator: In
             values:
             - pod-1
